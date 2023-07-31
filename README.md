@@ -1,6 +1,16 @@
-flowchart LR
+erDiagram
 
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
+  demo-customers {
+    INT id
+    VARCHAR name
+    VARCHAR email
+  }
+
+  demo-orders {
+    INT id
+    INT customer_id
+    DATE order_date
+    DECIMAL total_amount
+  }
+
+  demo-customers ||--o{ demo-orders : "foreign key"
