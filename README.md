@@ -1,4 +1,3 @@
-mermaid
 erDiagram
 
   demo-customers {
