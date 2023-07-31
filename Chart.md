@@ -1,8 +1,8 @@
 ```mermaid
 flowchart TD
     m((main)) -->
-    |FlowGorithm Flowchart to find ...| A(Integer A)
-    -->B(Integer B)
+    |FlowGorithm Flowchart to find ...| A[Integer A]
+    -->B[Integer B]
     -->bh1[/Output enter bymber A=/]
     -->bh2[Input A]
     -->bh3[/Out put enter number B/]
