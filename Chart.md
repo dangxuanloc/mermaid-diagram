@@ -12,10 +12,10 @@ flowchart TD
     condition1-->|true|bh5[/Output 'Greater Number of A and B is = & A'/]
     condition2-->|false|bh6[/Output 'Greater Number of A and B is = '& B/]
     condition2-->|true|bh7[/Output 'Both A and B numbers are Equal'/]
-    bh6-->id1(())
-    bh7-->id1(())
+    bh6-->id1(( ))
+    bh7-->id1(( ))
     id1-->id2(((End)))
-    bh5-->id2(())
+    bh5-->id2(( ))
     id2-->id3(((END)))
 ```
    
