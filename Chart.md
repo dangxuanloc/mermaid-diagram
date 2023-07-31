@@ -4,9 +4,9 @@ flowchart TD
     |FlowGorithm Flowchart to find ...| A(Integer A)
     -->B(Integer B)
     -->bh1[/Output enter bymber A=/]
-    -->bh2[/Input A/]
+    -->bh2[[Input A]]
     -->bh3[/Out put enter number B/]
-    -->bh4[/Input B/]
+    -->bh4[[Input B]]
     -->condition1{A > B}
     condition1-->|false|condition2{A == B}
     condition1-->|true|bh5[/Output 'Greater Number of A and B is = & A'/]
