@@ -1,16 +1,12 @@
-erDiagram
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
-  demo-customers {
-    INT id
-    VARCHAR name
-    VARCHAR email
-  }
 
-  demo-orders {
-    INT id
-    INT customer_id
-    DATE order_date
-    DECIMAL total_amount
-  }
 
-  demo-customers ||--o{ demo-orders : "foreign key"
+
+
