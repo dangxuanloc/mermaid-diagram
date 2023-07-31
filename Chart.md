@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     m((main)) -->
     |FlowGorithm Flowchart to find ...| A[[Integer A]]
@@ -16,6 +17,5 @@ flowchart TD
     id1-->id2(((End)))
     bh5-->id2((merge))
     id2-->id3(((END)))
-
-
+```
    
