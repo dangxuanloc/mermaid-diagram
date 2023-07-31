@@ -6,10 +6,12 @@ sequenceDiagram
     participant LinkedIn
     participant Reader
     participant Google Analystics
-    A->>J: Hello John, how are you?
-    J->>A: Great!
-    A->>B: Hello Bob, how is Charly ?
-    B->>C: Hello Charly, how are you?
+    Dee in Marketing->>Rae: Ask for a blog post
+    Rae->>Fjorge Website: Write a blog post
+    Rae->>Fjorge Website: Click publish
+    Fjorge Website->>Rae: Notify that the post was published
+    Rae ->>Dee in Marketing: Notify that the post was published
+
 ```
 
 
