@@ -90,6 +90,7 @@ Make sure you are familiar with the following concepts:
     Create PR from develop onto master
     # create tag, choose master branch, add release note in remote repository
 
-    ![img](/gitflow.jpg)
+    ![img] (/gitflow.jpg)
+
 
     
